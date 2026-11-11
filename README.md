@@ -1,3 +1,5 @@
+<p align="center"><img src="project-banner.svg" alt="Zigola official website banner" width="100%" /></p>
+
 # Zigola Official Website
 
 A responsive personal website built with HTML, CSS, and JavaScript. The project is used to practice accessible interface design, responsive layouts, performance, and SEO fundamentals.
