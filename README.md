@@ -1,36 +1,66 @@
-# 🌐 Zigola Official Website
+# Zigola Official Website
 
-Modern responsive website built with HTML, CSS and JavaScript.
+A responsive personal website built with HTML, CSS, and JavaScript. The project is used to practice accessible interface design, responsive layouts, performance, and SEO fundamentals.
 
-## ✨ Features
+## Features
 
-- Responsive Design
-- Dark Mode
-- Fast Loading
-- SEO Optimized
-- Mobile Friendly
-- Modern UI
+- Responsive layout for mobile and desktop screens
+- Dark-mode interface
+- Semantic HTML structure
+- Lightweight CSS and vanilla JavaScript
+- SEO and performance improvements tracked as the project evolves
 
-## 📂 Project Structure
+## Tech stack
 
-```text
-css/
-js/
-assets/
-docs/
-```
+- HTML5
+- CSS3
+- JavaScript
+- Vite for local development and production builds
 
-## 🚀 Installation
+## Run locally
 
 ```bash
-git clone https://github.com/zigola/Site-officiel-zigola.git
-cd Site-officiel-zigola
+git clone https://github.com/zigola/Site-officiel-zigola-.git
+cd Site-officiel-zigola-
+npm install
+npm run dev
 ```
 
-## 📸 Screenshots
+Create a production build with:
 
-(Add screenshots here)
+```bash
+npm run build
+npm run preview
+```
 
-## 📄 License
+## Project structure
 
-MIT
+```text
+index.html       Main document
+style.css        Global styles and responsive layout
+package.json     Development scripts and metadata
+.github/         Repository automation
+```
+
+## Quality checklist
+
+- Test keyboard navigation and visible focus states.
+- Check the layout at narrow and wide viewport sizes.
+- Verify contrast and readable text sizes.
+- Keep images optimized and provide meaningful alternative text.
+- Recheck links and metadata before publishing.
+
+## Screenshots
+
+Add screenshots only when they represent the current interface and do not expose personal information.
+
+## Roadmap
+
+- [ ] Add automated build validation
+- [ ] Improve accessibility checks
+- [ ] Add a deployment guide
+- [ ] Document browser support
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
